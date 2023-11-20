@@ -55,16 +55,30 @@ img {
 }
 
 /** ========= HEADER ====== */
+.header-all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 458px;
+}
 
 .header-navigation {
   display: flex;
   width: 458px;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .header-menu {
   display: flex;
+  column-gap: 40px;
+}
+
+.header-adress-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 458px;
   column-gap: 40px;
 }
 
