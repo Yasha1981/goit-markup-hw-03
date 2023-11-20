@@ -58,6 +58,14 @@ img {
 
 .header-navigation {
   display: flex;
+  width: 458px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  column-gap: 40px;
 }
 
 .header-logo {
@@ -81,6 +89,9 @@ img {
 }
 
 .header-menu-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: block;
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
