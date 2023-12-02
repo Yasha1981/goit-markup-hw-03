@@ -150,6 +150,10 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 188px;
 }
 .solution-order-btn {
   cursor: pointer;
