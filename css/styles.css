@@ -58,18 +58,17 @@ img {
 
 .header-navigation {
   display: flex;
-  width: 451px;
   align-items: center;
 }
 
 .header-menu {
   display: flex;
+  margin-left: 76px;
   column-gap: 40px;
 }
 
-.header-adress {
+.header-adress-list {
   display: flex;
-  width: 340px;
   align-items: center;
   justify-content: right;
   column-gap: 40px;
@@ -77,6 +76,7 @@ img {
 
 .header-list {
   display: flex;
+  justify-content: space-between;
 }
 
 .header-logo {
@@ -120,6 +120,7 @@ img {
 }
 
 .header-adress-link {
+  display: block;
   padding-top: 24px;
   padding-bottom: 24px;
   color: #434455;
