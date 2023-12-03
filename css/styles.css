@@ -32,6 +32,11 @@ img {
   display: block;
 }
 
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -142,6 +147,9 @@ img {
 
 .solution {
   background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  margin-bottom: 60px;
 }
 .solution-title {
   color: #ffffff;
@@ -153,7 +161,7 @@ img {
   width: 496px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 188px;
+  margin-bottom: 48px;
 }
 .solution-order-btn {
   cursor: pointer;
@@ -176,12 +184,23 @@ img {
 
 /** ======== SOLUTIONS ======*/
 
+.solutions-list {
+  display: flex;
+  column-gap: 24px;
+}
+
+.solutions-item {
+  display: block;
+  width: 264px;
+}
+
 .solutions-subtitle {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .solutions-item-text {
   color: #434455;
@@ -196,6 +215,10 @@ img {
 
 .team {
   background: #f4f4fd;
+}
+
+.team-list {
+  display: flex;
 }
 
 .team-list-item {
