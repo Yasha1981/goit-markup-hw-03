@@ -30,6 +30,7 @@ ol {
 
 img {
   display: block;
+  margin-bottom: 32px;
 }
 
 .section {
@@ -215,10 +216,15 @@ img {
 
 .team {
   background: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .team-list {
   display: flex;
+  column-gap: 24px;
 }
 
 .team-list-item {
@@ -226,6 +232,7 @@ img {
 }
 
 .team-title {
+  margin-bottom: 72px;
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
@@ -236,6 +243,8 @@ img {
 }
 
 .team-subtitle {
+  margin-bottom: 8px;
+  text-align: center;
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -244,6 +253,8 @@ img {
 }
 
 .team-item-text {
+  margin-bottom: 32px;
+  text-align: center;
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
@@ -253,6 +264,11 @@ img {
 /** ====================== */
 
 /** ====== PORTFOLIO ====== */
+
+.portfolio-list {
+  display: flex;
+  column-gap: 24px;
+}
 
 .portfolio-title {
   color: #2e2f42;
