@@ -55,6 +55,11 @@ img {
   padding-right: 15px;
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 /** ========= HEADER ====== */
 
 .header {
