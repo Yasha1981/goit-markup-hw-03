@@ -157,6 +157,7 @@ img {
 }
 .solution-title {
   color: #ffffff;
+  max-width: 496px;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -173,7 +174,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   min-width: 169px;
-  border-width: 0;
+  border: none;
   padding: 16px 32px;
   border-radius: 4px;
   background: #4d5ae5;
