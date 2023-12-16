@@ -203,7 +203,7 @@ img {
 
 .solutions-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .solutions-item {
