@@ -71,25 +71,8 @@ img {
   align-items: center;
 }
 
-.header-menu {
-  display: flex;
-  margin-left: 76px;
-  column-gap: 40px;
-}
-
-.header-adress-list {
-  display: flex;
-  align-items: center;
-  justify-content: right;
-  column-gap: 40px;
-}
-
-.header-list {
-  display: flex;
-  justify-content: space-between;
-}
-
 .header-logo {
+  margin-right: 76px;
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -107,6 +90,21 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.header-adress-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-between;
 }
 
 .header-menu-link {
