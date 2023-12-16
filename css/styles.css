@@ -230,13 +230,11 @@ img {
 
 .team {
   background: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .team-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .team-list-item {
@@ -256,6 +254,11 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!! */
+.team-item-description {
+  padding: 32px 0;
 }
 
 .team-subtitle {
