@@ -256,7 +256,6 @@ img {
   text-transform: capitalize;
 }
 
-/* !!!!!!!!!!!!!!!!!!!!!!!!!! */
 .team-item-description {
   padding: 32px 0;
 }
@@ -272,7 +271,6 @@ img {
 }
 
 .team-item-text {
-  margin-bottom: 32px;
   text-align: center;
   color: #434455;
   font-size: 16px;
